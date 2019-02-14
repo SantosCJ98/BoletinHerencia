@@ -10,7 +10,7 @@ public class Encargado extends Empleado {
 	
 	public String toString() {
 		
-		return String.format("Sueldo Empleado: %.2f\nSueldo Encargado: %.2f", super.calcularSueldo(), calcularSueldo());
+		return String.format("Sueldo Encargado: %.2f", calcularSueldo());
 		
 	}
 

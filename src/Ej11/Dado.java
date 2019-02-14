@@ -17,5 +17,11 @@ public class Dado extends Sorteo {
 		return random.nextInt(posibilidades)+1;
 		
 	}
+	
+	public String toString() {
+		
+		return String.format("Dado: %d", lanzar());
+		
+	}
 
 }

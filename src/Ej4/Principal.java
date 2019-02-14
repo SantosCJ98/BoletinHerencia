@@ -1,12 +1,14 @@
 package Ej4;
 
-import static teclado.Teclado.*;
-
 public class Principal {
 
 	public static void main(String args[]) {
+		
+		Empleado emp = new Empleado();
 
 		Encargado enc = new Encargado();
+		
+		System.out.println(emp);
 		
 		System.out.println(enc);
 	}

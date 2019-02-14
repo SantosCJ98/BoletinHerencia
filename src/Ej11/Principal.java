@@ -8,9 +8,9 @@ public class Principal {
 		
 		Moneda moneda = new Moneda();
 		
-		System.out.println(dado.lanzar());
-
-		moneda.lanzar();
+		System.out.println(dado);
+		
+		System.out.println(moneda);
 		
 	}
 

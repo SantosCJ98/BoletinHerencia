@@ -6,7 +6,7 @@ public class Empleado {
 	
 	Empleado() {
 		
-		sueldo = 1000.20f;
+		sueldo = 950.20f;
 		
 	}
 
@@ -14,6 +14,12 @@ public class Empleado {
 	protected float calcularSueldo() {
 		
 		return sueldo;
+		
+	}
+	
+	public String toString() {
+		
+		return String.format("Sueldo Empleado: %.2f €", calcularSueldo());
 		
 	}
 	

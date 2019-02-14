@@ -8,4 +8,4 @@ class Testfinal {
 	}
 }
 
-//s1 es una cadena constante. Por lo intentar modificarla es imposible.
+//s1 es una cadena constante. Por lo que intentar modificarla es imposible.

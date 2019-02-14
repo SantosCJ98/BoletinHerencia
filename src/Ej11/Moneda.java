@@ -14,21 +14,13 @@ public class Moneda extends Sorteo {
 		
 		Random random = new Random();
 		
-		int x = random.nextInt(posibilidades)+1;
+		return random.nextInt(posibilidades);
 		
-		if (x == 1) {
-			
-			System.out.println("Cara");
-			
-		}
+	}
+	
+	public String toString() {
 		
-		else {
-			
-			System.out.println("Cruz");
-			
-		}
-		
-		return x;
+		return String.format("Moneda: %s", (lanzar() == 0) ? "Cara" : "Cruz");
 		
 	}
 
