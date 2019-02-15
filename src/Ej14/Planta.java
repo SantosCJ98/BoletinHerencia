@@ -1,6 +1,6 @@
 package Ej14;
 
-public class Planta implements MercanciaViva {
+public class Planta implements Mercancia {
 
 	private float precio;
 	

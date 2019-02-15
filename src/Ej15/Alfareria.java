@@ -24,7 +24,7 @@ public class Alfareria implements MercanciaFragil {
 	
 	public String dameEmbalaje() {
 		
-		return toString();
+		return String.format("Precio: %.2f\nDescripcion: %s\n¿Fragil?: %s\nPeso: %.2f", damePrecio(), dameDescripcion(), fragil?"Sí":"No", damePeso());
 		
 	}
 	
@@ -48,7 +48,7 @@ public class Alfareria implements MercanciaFragil {
 	
 	public String toString() {
 		
-		return String.format("Alfareria\nPrecio: %.2f €\nDescripción: %s\n¿Frágil?: %s\nPeso: %.2f", damePrecio(), dameDescripcion(), fragil, damePeso());
+		return String.format("Alfarería\n%s", dameEmbalaje());
 		
 	}
 	
